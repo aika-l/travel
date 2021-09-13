@@ -1,0 +1,129 @@
+.services {
+  color: #242424;
+  margin: 20px;
+}
+.service-type {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 20px 30px 20px;
+  height: 300px;
+}
+p {
+  color: #242424;
+}
+.desc {
+  width: 45%;
+}
+/* .pictures {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+} */
+.main-img {
+}
+/* .big-img {
+  object-fit: contain;
+  width: 350px;
+} */
+.carusel {
+  margin-top: 20px;
+}
+.Wrap {
+  cursor: pointer;
+}
+/* img {
+  border: 4px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  transition-duration: 300ms;
+}
+img:hover {
+  border: 4px solid rgba(249, 249, 249, 0.8);
+} */
+.pictures {
+  position: relative;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+} */
+.images {
+  position: relative;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  /* width: 1000px;
+  height: 600px; */
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  transition-duration: 100ms;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  font-size: 1.5rem;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+  width: 25px;
+  height: 25px;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  font-size: 1.5rem;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+
+  width: 25px;
+  height: 25px;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+.smallImg {
+  width: 80px;
+  height: 55px;
+  border-radius: 5px;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+.picSet {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: lightskyblue solid 0.5px;
+  margin: 5px;
+}
+a {
+  color: lightseagreen;
+  text-decoration: none;
+}
